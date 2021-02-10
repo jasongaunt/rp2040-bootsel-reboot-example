@@ -51,7 +51,7 @@ void update_watchdog() {
 
 void check_bootsel_button() {
 	if (get_bootsel_button() == 1) {
-		puts("Rebooting in 1 second...\n");
+		puts("Rebooting...\n");
 		while(1);
 	}
 	update_watchdog();
